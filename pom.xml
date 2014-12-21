@@ -26,7 +26,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<url>http://54.68.91.99:9000</url>
+					<url>http://54.68.91.99:9000/walkmod/apply</url>
 				</configuration>
 			</plugin>
 		</plugins>
