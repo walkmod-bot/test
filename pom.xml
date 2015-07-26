@@ -12,6 +12,7 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<!-- 
 		<plugins>
 			<plugin>
 				<groupId>org.walkmod</groupId>
@@ -30,6 +31,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		 -->
 	</build>
 	<version>1.0</version>
 </project>
