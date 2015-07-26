@@ -4,5 +4,5 @@ public class Foo {
 
 	public void foo(){}
 	
-	public void foo2(){}
+	//public void foo2(){}
 }
