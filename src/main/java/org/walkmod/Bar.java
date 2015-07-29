@@ -1,6 +1,6 @@
 package org.walkmod;
 
-public class Foo {
+public class Bar {
 
 	public void foo(){}
 	
