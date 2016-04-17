@@ -1,23 +1,9 @@
-<!DOCTYPE walkmod PUBLIC "-//WALKMOD//DTD"  "http://www.walkmod.com/dtd/walkmod-1.0.dtd" >
+<!DOCTYPE walkmod PUBLIC "-//WALKMOD//DTD" "http://www.walkmod.com/dtd/walkmod-1.1.dtd">
 <walkmod>
-	<plugins>
-		<plugin groupId="org.walkmod" artifactId="walkmod-maven-plugin"
-			version="[1.1.1,)" />
-		<plugin groupId="org.walkmod" artifactId="walkmod-dead-code-cleaner-plugin"
-			version="1.0.0" />
-	</plugins>
-
-	<conf-providers>
-		<conf-provider type="walkmod:commons:maven"></conf-provider>
-	</conf-providers>
-	<chain name="main-chain">
-		<walker>
-			<transformations>
-				<transformation type="walkmod:commons:unused-declarations-cleaner" />
-			</transformations>
-		</walker>
-		<writer path="src/main/java"
-			type="org.walkmod:walkmod-javalang-plugin:string-writer">
-		</writer>
-	</chain>
+    <chain name="default">
+        <transformation type="dead-code-cleaner"/>
+        <transformation type="sonar:CollapsibleIfStatements"/>
+        <transformation type="sonar:AddCurlyBrackets"/>
+        <writer path="src/main/java" type="javalang:string-writer"/>
+    </chain>
 </walkmod>
