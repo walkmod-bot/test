@@ -20,16 +20,14 @@ public class Foo {
          goToTeaserFrame();
          find = eval();
          if (!find){
-           if (++retry >= other())) {
+           if (++retry >= other()) {
             throw new Exception("Unable to access to the text teaser");
            }
          }
       }
       System.out.println("hello");
       switch (retry) {
-      case 0:
-         
-                  
+      case 0:              
             System.out.println("hello");
             System.out.println("bye");
          
