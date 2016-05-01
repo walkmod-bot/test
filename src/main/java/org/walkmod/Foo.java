@@ -3,7 +3,6 @@ package org.walkmod;
 public class Foo {
 
    public void goToTeaserFrame() {
-
    }
 
    public boolean eval() {
