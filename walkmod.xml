@@ -1,7 +1,6 @@
 <!DOCTYPE walkmod PUBLIC "-//WALKMOD//DTD" "http://www.walkmod.com/dtd/walkmod-1.1.dtd">
 <walkmod>
     <chain name="default">
-        <transformation type="dead-code-cleaner"/>
         <transformation type="sonar:CollapsibleIfStatements"/>
         <transformation type="sonar:AddCurlyBrackets"/>
         <writer path="src/main/java" type="javalang:string-writer"/>

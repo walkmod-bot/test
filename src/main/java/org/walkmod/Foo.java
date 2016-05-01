@@ -1,10 +1,9 @@
 package org.walkmod;
 
-import java.util.List;
-
 public class Foo {
 
    public void goToTeaserFrame() {
+
    }
 
    public boolean eval() {
@@ -15,22 +14,26 @@ public class Foo {
       return 0;
    }
 
-   public void foo2() {
+   public void foo2() throws Exception {
       boolean find = false;
       int retry = 0;
       while (!find) {
          goToTeaserFrame();
          find = eval();
-         if (         !find && (++retry >= other())) {
-            
-         throw new RuntimeException("Unable to access to the text teaser");}
+         if (!find && (++retry >= other())) {
+            throw new Exception("Unable to access to the text teaser");
+         }
       }
-      switch (retry){
-      case 0: 
-              {
-System.out.println("hello");
-System.out.println("bye");
-}
+      System.out.println("hello");
+      switch (retry) {
+      case 0:
+         
+                  {
+            System.out.println("hello");
+            System.out.println("bye");
+         }
+
+
       }
 
    }
