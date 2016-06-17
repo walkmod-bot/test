@@ -12,26 +12,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<!-- 
-		<plugins>
-			<plugin>
-				<groupId>org.walkmod</groupId>
-				<artifactId>maven-mrpopo-plugin</artifactId>
-				<version>1.0.5</version>
-				<executions>
-					<execution>
-						<phase>generate-sources</phase>
-						<goals>
-							<goal>mrpopo</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<url>http://54.68.91.99:9000/walkmod/apply</url>
-				</configuration>
-			</plugin>
-		</plugins>
-		 -->
 	</build>
 	<version>1.0</version>
 </project>

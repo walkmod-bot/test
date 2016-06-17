@@ -1,7 +1,7 @@
 <!DOCTYPE walkmod PUBLIC "-//WALKMOD//DTD" "http://www.walkmod.com/dtd/walkmod-1.1.dtd">
 <walkmod>
     <chain name="default">
-        <transformation type="sonar:RemoveCodeComment"/>
+        <transformation type="dead-code-cleaner"/>
         <writer path="src/main/java" type="javalang:string-writer"/>
     </chain>
 </walkmod>
