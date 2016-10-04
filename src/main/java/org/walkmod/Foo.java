@@ -29,10 +29,7 @@ public class Foo {
       switch (retry) {
       case 0:              
             System.out.println("hello");
-            System.out.println("bye");
-         
-
-
+            System.out.println("bye");        
       }
 
    }
