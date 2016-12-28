@@ -26,6 +26,7 @@ public class Bar {
 
 
       System.out.println("hello");
+      System.out.println("foo");
       switch (retry) {
       case 0:              
             {
