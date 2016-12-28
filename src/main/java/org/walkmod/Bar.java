@@ -28,6 +28,7 @@ public class Bar {
       System.out.println("hello");
       System.out.println("foo");
       System.out.println("bar");
+      System.out.println("zoo");
       switch (retry) {
       case 0:              
             {
