@@ -23,6 +23,11 @@ public class Bar {
            throw new Exception("Unable to access to the text teaser");
          }
       }
+
+
+
+
+
       System.out.println("hello");
       System.out.println("bar10");
       switch (retry) {
