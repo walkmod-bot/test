@@ -24,7 +24,7 @@ public class Bar {
          }
       }
       System.out.println("hello");
-      System.out.println("bar5");
+      System.out.println("bar6");
       switch (retry) {
       case 0:              
             {
